@@ -11,7 +11,6 @@
 		1F7B82721C9F994F00A7E8E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7B82711C9F994F00A7E8E8 /* ViewController.swift */; };
 		1F7B82751C9F994F00A7E8E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7B82731C9F994F00A7E8E8 /* Main.storyboard */; };
 		1F7B82771C9F994F00A7E8E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F7B82761C9F994F00A7E8E8 /* Assets.xcassets */; };
-		1F7B827A1C9F994F00A7E8E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7B82781C9F994F00A7E8E8 /* LaunchScreen.storyboard */; };
 		1F7B82851C9F994F00A7E8E8 /* firstjeffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7B82841C9F994F00A7E8E8 /* firstjeffTests.swift */; };
 		1F7B82901C9F994F00A7E8E8 /* firstjeffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7B828F1C9F994F00A7E8E8 /* firstjeffUITests.swift */; };
 /* End PBXBuildFile section */
@@ -39,7 +38,6 @@
 		1F7B82711C9F994F00A7E8E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1F7B82741C9F994F00A7E8E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F7B82761C9F994F00A7E8E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1F7B82791C9F994F00A7E8E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F7B827B1C9F994F00A7E8E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F7B82801C9F994F00A7E8E8 /* firstjeffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstjeffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F7B82841C9F994F00A7E8E8 /* firstjeffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstjeffTests.swift; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 				1F7B82711C9F994F00A7E8E8 /* ViewController.swift */,
 				1F7B82731C9F994F00A7E8E8 /* Main.storyboard */,
 				1F7B82761C9F994F00A7E8E8 /* Assets.xcassets */,
-				1F7B82781C9F994F00A7E8E8 /* LaunchScreen.storyboard */,
 				1F7B827B1C9F994F00A7E8E8 /* Info.plist */,
 			);
 			path = firstjeff;
@@ -229,7 +226,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F7B827A1C9F994F00A7E8E8 /* LaunchScreen.storyboard in Resources */,
 				1F7B82771C9F994F00A7E8E8 /* Assets.xcassets in Resources */,
 				1F7B82751C9F994F00A7E8E8 /* Main.storyboard in Resources */,
 			);
@@ -299,14 +295,6 @@
 				1F7B82741C9F994F00A7E8E8 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1F7B82781C9F994F00A7E8E8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F7B82791C9F994F00A7E8E8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -398,6 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = firstjeff/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jeff.firstjeff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +398,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = firstjeff/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jeff.firstjeff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
